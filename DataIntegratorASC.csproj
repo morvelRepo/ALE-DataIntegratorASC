@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\morat\OneDrive\Escritorio\DataIntegratorASC.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{65613009-FA16-40D8-8B65-8E036679CB48}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>DataIntegratorASC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.SAPbobsCOM">
+      <HintPath>..\..\GIT_CLIENTESCASA\ClientesCasa\trunk\ClientesCasa\bin\Interop.SAPbobsCOM.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NucleoBase">
+      <HintPath>..\..\GIT_CLIENTESCASA\ClientesCasa\trunk\ClientesCasa\bin\NucleoBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataIntegratorASC\Program.cs" />
+    <Compile Include="DataIntegratorASC\Bussiness\Bancos.cs" />
+    <Compile Include="DataIntegratorASC\Bussiness\Catalogos.cs" />
+    <Compile Include="DataIntegratorASC\Bussiness\DBPurchase.cs" />
+    <Compile Include="DataIntegratorASC\Bussiness\OrdenTrabajoBO.cs" />
+    <Compile Include="DataIntegratorASC\Bussiness\Pedidos.cs" />
+    <Compile Include="DataIntegratorASC\Bussiness\PurchaseOrders.cs" />
+    <Compile Include="DataIntegratorASC\DomainModel\DBIntegrator.cs" />
+    <Compile Include="DataIntegratorASC\DomainModel\DBBaseSAP.cs" />
+    <Compile Include="DataIntegratorASC\DomainModel\DBAccesoSAP.cs" />
+    <Compile Include="DataIntegratorASC\DomainModel\DBBancos.cs" />
+    <Compile Include="DataIntegratorASC\DomainModel\DBBase.cs" />
+    <Compile Include="DataIntegratorASC\DomainModel\DBCatalogos.cs" />
+    <Compile Include="DataIntegratorASC\DomainModel\DBCorridor.cs" />
+    <Compile Include="DataIntegratorASC\DomainModel\DBUtils.cs" />
+    <Compile Include="DataIntegratorASC\Clases\MyGlobals.cs" />
+    <Compile Include="DataIntegratorASC\Clases\Utils.cs" />
+    <Compile Include="DataIntegratorASC\Helpers\H_Constantes.cs" />
+    <Compile Include="DataIntegratorASC\Objetos\BaseObjeto.cs" />
+    <Compile Include="DataIntegratorASC\Objetos\EstatusDocumento.cs" />
+    <Compile Include="DataIntegratorASC\Objetos\Pedido.cs" />
+    <Compile Include="DataIntegratorASC\Objetos\LineasPedido.cs" />
+    <Compile Include="DataIntegratorASC\Objetos\PurchaseOrder.cs" />
+    <Compile Include="DataIntegratorASC\Objetos\OrdenTrabajo.cs" />
+    <Compile Include="DataIntegratorASC\Objetos\LineasOrdenTrabajo.cs" />
+    <Compile Include="DataIntegratorASC\Objetos\SocioNegocio.cs" />
+    <Compile Include="DataIntegratorASC\Objetos\DireccionSocioNegocio.cs" />
+    <Compile Include="DataIntegratorASC\Objetos\BussinessPartnerType.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

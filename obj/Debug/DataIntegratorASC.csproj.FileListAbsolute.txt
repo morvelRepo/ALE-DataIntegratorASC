@@ -1,0 +1,8 @@
+E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\obj\Debug\DataIntegratorASC.csproj.AssemblyReference.cache
+E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\obj\Debug\DataIntegratorASC.csproj.CoreCompileInputs.cache
+E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\bin\Debug\DataIntegratorASC.exe
+E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\bin\Debug\DataIntegratorASC.pdb
+E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\bin\Debug\NucleoBase.dll
+E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\obj\Debug\DataIntegratorASC.exe
+E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\obj\Debug\DataIntegratorASC.pdb
+E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\bin\Debug\DataIntegratorASC.exe.config
