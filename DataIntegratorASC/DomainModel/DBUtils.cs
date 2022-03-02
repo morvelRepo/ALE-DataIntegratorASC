@@ -32,7 +32,7 @@ namespace DataIntegratorASC.DomainModel
         MyGlobals.oCompany.LicenseServer = row.S("Licencia");
         MyGlobals.oCompany.DbUserName = row.S("DBUsuario");
         MyGlobals.oCompany.DbPassword = row.S("DBPassword");
-        MyGlobals.oCompany.DbServerType = BoDataServerTypes.dst_MSSQL2014;
+        MyGlobals.oCompany.DbServerType = BoDataServerTypes.dst_MSSQL2019;
         Utils.GuardarBitacora("Intenta conectar a SAP");
         // ISSUE: reference to a compiler-generated method
         int errCode = MyGlobals.oCompany.Connect();

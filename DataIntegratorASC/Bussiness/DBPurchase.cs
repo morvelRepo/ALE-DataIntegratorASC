@@ -42,7 +42,7 @@ namespace DataIntegratorASC.Bussiness
           dSubtotal = r["SUBTOTAL"].S().D(),
           dDescuento = r["DESCUENTO"].S().D(),
           sMoneda = r["MONEDA"].S(),
-          sCodigoImpuesto = ["CODIGO_IMPUESTO"].S(),
+          sCodigoImpuesto = r["CODIGO_IMPUESTO"].S(),
           sPais = r["PAIS"].S(),
           sBase = r["BASE"].S(),
           sVim = r["VIM"].S(),

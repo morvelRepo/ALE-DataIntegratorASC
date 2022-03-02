@@ -6,3 +6,13 @@ E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\bin\Debug\NucleoBase.dll
 E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\obj\Debug\DataIntegratorASC.exe
 E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\obj\Debug\DataIntegratorASC.pdb
 E:\DESARROLLOS\DataIntegratorASC\DataIntegratorASC\bin\Debug\DataIntegratorASC.exe.config
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\Debug\DataIntegratorASC.csproj.AssemblyReference.cache
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\Debug\DataIntegratorASC.csproj.CoreCompileInputs.cache
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\Debug\DataIntegratorASC.exe
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\Debug\DataIntegratorASC.pdb
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\bin\Debug\DataIntegratorASC.exe.config
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\bin\Debug\DataIntegratorASC.exe
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\bin\Debug\DataIntegratorASC.pdb
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\bin\Debug\NucleoBase.dll
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\Debug\Interop.SAPbobsCOM.dll
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\Debug\DataIntegratorASC.csproj.ResolveComReference.cache

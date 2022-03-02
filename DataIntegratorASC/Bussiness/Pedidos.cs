@@ -26,7 +26,7 @@ namespace DataIntegratorASC.Bussiness
         bool flag = false;
         MyGlobals.sStepLog = "Arma lista de Pedidos";
         List<Pedido> armaListaPedidos = this.ArmaListaPedidos;
-        Utils.GuardarBitacora("Armó la lista de SalesOrders con:" + armaListaPedidos.Count.S();
+        Utils.GuardarBitacora("Armó la lista de SalesOrders con:" + armaListaPedidos.Count.S());
         foreach (Pedido oT in armaListaPedidos)
         {
           string empty = string.Empty;

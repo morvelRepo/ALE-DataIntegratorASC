@@ -19,23 +19,23 @@ namespace DataIntegratorASC
             DateTime dateTime = new DateTime();
             Program.LoadInitialValues();
 
-            MyGlobals.sStepLog = "Catálogos";
-            new Catalogos().Import();
+                MyGlobals.sStepLog = "Catálogos";
+                new Catalogos().Import();
 
-            MyGlobals.sStepLog = "WorkOrders";
-            Utils.GuardarBitacora("Inicia:" + MyGlobals.sStepLog);
-            new OrdenTrabajoBO().Import();
+                MyGlobals.sStepLog = "WorkOrders";
+                Utils.GuardarBitacora("Inicia:" + MyGlobals.sStepLog);
+                new OrdenTrabajoBO().Import();
 
-            MyGlobals.sStepLog = "SalesOrders";
-            Utils.GuardarBitacora("Inicia:" + MyGlobals.sStepLog);
-            new Pedidos().Import();
+                MyGlobals.sStepLog = "SalesOrders";
+                Utils.GuardarBitacora("Inicia:" + MyGlobals.sStepLog);
+                new Pedidos().Import();
 
-            MyGlobals.sStepLog = "PurchaseOrders";
-            Utils.GuardarBitacora("Inicia:" + MyGlobals.sStepLog);
-            new PurchaseOrders().Import();
+                MyGlobals.sStepLog = "PurchaseOrders";
+                Utils.GuardarBitacora("Inicia:" + MyGlobals.sStepLog);
+                new PurchaseOrders().Import();
 
-            Utils.GuardarBitacora("Total de tiempo: " + (DateTime.Now - dateTime).ToString());
-        }
+                Utils.GuardarBitacora("Total de tiempo: " + (DateTime.Now - dateTime).ToString());
+            }
         catch (Exception ex)
         {
             if (MyGlobals.oCompany.Connected)

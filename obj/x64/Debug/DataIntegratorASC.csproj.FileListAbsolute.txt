@@ -1,0 +1,10 @@
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\bin\x64\Debug\DataIntegratorASC.exe.config
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\bin\x64\Debug\DataIntegratorASC.exe
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\bin\x64\Debug\DataIntegratorASC.pdb
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\bin\x64\Debug\NucleoBase.dll
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\x64\Debug\DataIntegratorASC.csproj.AssemblyReference.cache
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\x64\Debug\Interop.SAPbobsCOM.dll
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\x64\Debug\DataIntegratorASC.csproj.ResolveComReference.cache
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\x64\Debug\DataIntegratorASC.csproj.CoreCompileInputs.cache
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\x64\Debug\DataIntegratorASC.exe
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\x64\Debug\DataIntegratorASC.pdb

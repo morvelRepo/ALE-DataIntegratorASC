@@ -1,0 +1,8 @@
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\bin\x64\Release\DataIntegratorASC.exe.config
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\bin\x64\Release\DataIntegratorASC.exe
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\bin\x64\Release\NucleoBase.dll
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\x64\Release\Interop.SAPbobsCOM.dll
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\x64\Release\DataIntegratorASC.csproj.ResolveComReference.cache
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\x64\Release\DataIntegratorASC.csproj.CoreCompileInputs.cache
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\x64\Release\DataIntegratorASC.csproj.CopyComplete
+E:\DESARROLLOS\GIT_DataIntegrator_ASC\DataIntegrator_ASC\obj\x64\Release\DataIntegratorASC.exe
