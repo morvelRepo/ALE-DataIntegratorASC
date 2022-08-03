@@ -29,7 +29,8 @@ namespace DataIntegratorASC.DomainModel
         MyGlobals.oCompany.CompanyDB = row.S("DBCompania");
         MyGlobals.oCompany.UserName = row.S("SBOUserName");
         MyGlobals.oCompany.Password = row.S("SBOPassword");
-        MyGlobals.oCompany.LicenseServer = row.S("Licencia");
+        //MyGlobals.oCompany.LicenseServer = row.S("Licencia");
+        MyGlobals.oCompany.SLDServer = "https://admonale:40000/";
         MyGlobals.oCompany.DbUserName = row.S("DBUsuario");
         MyGlobals.oCompany.DbPassword = row.S("DBPassword");
         MyGlobals.oCompany.DbServerType = BoDataServerTypes.dst_MSSQL2019;
