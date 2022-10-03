@@ -13,6 +13,6 @@ namespace DataIntegratorASC.Clases
     public static Company oCompany;
     public static string sStepLog;
     public static string sAddOnName;
-    public static string sFechaInicioOpe = "2019-01-01 00:00:00";
+    public static string sFechaInicioOpe = "2022-01-01 00:00:00";
   }
 }
