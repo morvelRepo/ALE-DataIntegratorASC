@@ -29,12 +29,13 @@ namespace DataIntegratorASC.Bussiness
         Utils.GuardarBitacora("Armó la lista de WorkOrders con:" + listaOrdenesTrabajo.Count.S());
         foreach (OrdenTrabajo oT in listaOrdenesTrabajo)
         {
+                    //VALIDACIONES
           string empty = string.Empty;
           string str = new PurchaseOrders().ObtieneCardCodeClienteporRFC(oT.sRFC, oT.sNombreCliente);
           if (str != string.Empty)
           {
             oT.sCardCode = str;
-            if (!new DBPurchase().DBGetValidaExisteDocumentoEnSAP_WOSO("WorkOrder", oT.sPedido))
+            if (!new DBPurchase().DBGetValidaExisteDocumentoEnSAP_WOSO("WorkOrder", oT.sPedido))// esta validacion se quita porque  la validacion se hace desde el query
             {
               if (this.CreateSapDoc(oT))
                 Utils.GuardarBitacora("Exito: " + oT.oEstatus.sMensaje + ", Numero WorkOrder: " + oT.sOrdenCompra + ", Base: " + oT.sBase);
